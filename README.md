@@ -11,6 +11,10 @@ Após fazer o clone do repositório.
 No terminal digite:
 
 ```bash
+  python -m venv venv 
+```
+
+```bash
   pip install -r requirements.txt
 ```
 
