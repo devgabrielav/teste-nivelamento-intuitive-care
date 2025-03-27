@@ -1,7 +1,7 @@
 
 # TESTES DE NIVELAMENTO 
 Scripts Python e backend para soluções do teste de nivelamento.
-
+A coleção Postman, se encontra na raiz do projeto.
 
 
 ## Iniciando o servidor e realizando testes
