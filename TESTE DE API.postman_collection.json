@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "749fda76-9500-4dcf-8232-4e44713cdec7",
+		"name": "TESTE DE API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43542293",
+		"_collection_link": "https://gabriela-817913.postman.co/workspace/Gabriela's-Workspace~45bc8f82-4ad3-4c57-8285-6bcf646fab4a/collection/43542293-749fda76-9500-4dcf-8232-4e44713cdec7?action=share&source=collection_link&creator=43542293"
+	},
+	"item": [
+		{
+			"name": "Busca todas as operadoras",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/operadoras",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"operadoras"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Busca por texto",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/operadoras/edson",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"operadoras",
+						"edson"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
