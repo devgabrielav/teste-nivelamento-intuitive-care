@@ -11,7 +11,7 @@ Após fazer o clone do repositório.
 No terminal digite:
 
 ```bash
-  python -m venv venv 
+  python3 -m venv venv 
 ```
 
 ```bash
